@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebClientTest", "WebClientT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiDownloader", "MultiDownloader\MultiDownloader.csproj", "{8FA38BE7-7B36-425E-8B14-8E38885EECD4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FtpClientTest", "FtpClientTest\FtpClientTest.csproj", "{165A107B-CEC9-4F6A-9447-7CE7FEF4C971}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8FA38BE7-7B36-425E-8B14-8E38885EECD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FA38BE7-7B36-425E-8B14-8E38885EECD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FA38BE7-7B36-425E-8B14-8E38885EECD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{165A107B-CEC9-4F6A-9447-7CE7FEF4C971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165A107B-CEC9-4F6A-9447-7CE7FEF4C971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165A107B-CEC9-4F6A-9447-7CE7FEF4C971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165A107B-CEC9-4F6A-9447-7CE7FEF4C971}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
