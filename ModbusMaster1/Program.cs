@@ -13,7 +13,7 @@ namespace ModbusMaster1
         static void Main(string[] args)
         {
             String ipAddr = "127.0.0.1";
-            int port = 1502;
+            int port = 502;
 
             TcpClient tcpClient = new TcpClient();
             tcpClient.BeginConnect(ipAddr, port, null, null);
