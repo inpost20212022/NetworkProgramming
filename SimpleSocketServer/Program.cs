@@ -12,6 +12,7 @@ namespace SimpleSocketServer
     {
         static void Main(string[] args)
         {
+            StartServer();
         }
 
         public static void StartServer()
@@ -38,6 +39,13 @@ namespace SimpleSocketServer
                     data += Encoding.UTF8.GetString(bytes, 0, bytesRec);
                     if (data.IndexOf("<EOF>") > -1) break;
                 }
+
+                Console.WriteLine("Text received: {0}", data);
+
+                byte[] msg = Encoding.UTF8.GetBytes(data.ToUpper());
+                handler.Send(msg);
+                handler.Shutdown(SocketShutdown.Both);
+                handler.Close();
 
             } catch (Exception ex)
             {
